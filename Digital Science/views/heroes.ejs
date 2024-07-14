@@ -1,0 +1,9 @@
+<%- include('partials/head', { pageTitle: 'title' }) %> <%-
+include('partials/menu') %>
+
+<h1><%= title %></h1>
+<ul>
+  <% for(let i = 0; i < lista.length; i++) { %>
+  <li><%= lista[i] %></li>
+  <% } %>
+</ul>
