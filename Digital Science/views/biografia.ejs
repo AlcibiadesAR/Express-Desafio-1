@@ -1,0 +1,10 @@
+<%- include('partials/head', { pageTitle: title }) %> <%-
+include('partials/menu') %>
+
+<h1><%= title %></h1>
+<h2><%= heroe.nombre %></h2>
+<% if (mensaje) { %>
+    <p><%= mensaje %></p>
+<% } else { %>
+    <p class="resenia"><%= heroe.resenia %></p>
+<% } %>
