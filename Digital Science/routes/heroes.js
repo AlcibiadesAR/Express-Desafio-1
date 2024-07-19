@@ -7,3 +7,5 @@ router.get("/heroes/detalle/id/:id", heroesController.detalles);
 router.get("/heroes/bio/id/:id/:ok", heroesController.biografia);
 
 module.exports = router;
+
+
